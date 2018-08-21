@@ -29,7 +29,7 @@ const colors = {
   darkGray: "#6f7c8a",
   grayIcon: "#828f9b",
   mask: "rgba(52, 52, 52, 0.8)",
-  red: "#c0001d",
-}
+  red: "#c0001d"
+};
 
-export default colors
+export default colors;

@@ -1,17 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {Text} from 'react-native'
+import React from "react";
+import PropTypes from "prop-types";
+import { Text } from "react-native";
 
 const propTypes = {
   selected: PropTypes.bool,
-  title: PropTypes.string,
-}
+  title: PropTypes.string
+};
 
-const TabIcon = (props) => <Text
-    style={{ color: props.focused ? 'red' : 'black' }}
-  >{props.title}
-  </Text>;
+const TabIcon = props => (
+  <Text style={{ color: props.focused ? "red" : "black" }}>{props.title}</Text>
+);
 
-TabIcon.propTypes = propTypes
+TabIcon.propTypes = propTypes;
 
-export default TabIcon
+export default TabIcon;
